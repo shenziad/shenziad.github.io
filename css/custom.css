@@ -1,0 +1,49 @@
+/* 自定义透明度样式 */
+
+/* 侧边栏透明度 */
+#aside-content .card-widget {
+  background: rgba(255, 255, 255, 0.9) !important;
+}
+
+/* 深色模式下的侧边栏透明度 */
+[data-theme="dark"] #aside-content .card-widget {
+  background: rgba(18, 18, 18, 0.9) !important;
+}
+
+/* 内容区域透明度 */
+#post,
+#page,
+#archive,
+#tag,
+#category,
+.recent-post-item {
+  background: rgba(255, 255, 255, 0.85) !important;
+}
+
+/* 深色模式下的内容区域透明度 */
+[data-theme="dark"] #post,
+[data-theme="dark"] #page,
+[data-theme="dark"] #archive,
+[data-theme="dark"] #tag,
+[data-theme="dark"] #category,
+[data-theme="dark"] .recent-post-item {
+  background: rgba(18, 18, 18, 0.85) !important;
+}
+
+/* 页脚透明度 */
+#footer {
+  background: rgba(255, 255, 255, 0.85) !important;
+}
+
+[data-theme="dark"] #footer {
+  background: rgba(18, 18, 18, 0.85) !important;
+}
+
+/* 导航栏透明度（可选） */
+#nav {
+  background: rgba(255, 255, 255, 0.85) !important;
+}
+
+[data-theme="dark"] #nav {
+  background: rgba(18, 18, 18, 0.85) !important;
+}
